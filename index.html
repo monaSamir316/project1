@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Task</title>
+    <style>
+.x
+{
+	background-color:rgb(193, 128, 236);;
+	margin: 20px 150px;
+	border-radius: 10% 10% ;
+}
+.y
+{
+	font-size: 40px;
+	margin: 150px;
+}
+
+body
+{
+	background-color: black;
+	font-size: 1.5vw;
+}
+
+body
+{
+	background-color: black; 
+}
+form
+{
+	text-align: center;
+	border-radius: 10px;
+	width: 50%;
+	margin-top: 40px;
+	margin-left: 200px;
+	background-color: rgb(193, 128, 236);
+}
+h1
+{
+	color:rgb(193, 128, 236);
+	text-align: center;
+}
+input
+{
+	text-align: center;
+}
+
+    </style>
+</head>
+<body>
+  <div class="x">
+  <a href="#Home" class="y">Home</a>
+  <a href="#Categories" class="y">Categories</a>
+  <a href="#Contact" class="y">Contact us</a>
+</div>
+    <br><br>
+    <center>
+      <section  id="Home">
+      <br>
+      <img src="image/mona.jpg.jpg"  height="50%" alt="">
+      </section>
+    </center> 
+      <br> <br>
+      <center>
+        <section id="Categories">
+              <img src="image/photo4.jpg"  width="20%" height="20%" alt="">
+              <img src="image/photo5.jpg"  width="20%" height="20%" alt="">
+              <img src="image/photo6.jpg"  width="20%" height="20%" alt="">
+              <br>
+              <img src="image/photo4.jpg"  width="20%" height="20%" alt="">
+              <img src="image/photo5.jpg"  width="20%" height="20%" alt="">
+              <img src="image/photo6.jpg"  width="20%" height="20%" alt="">
+              <br>
+              <br>
+              
+          </section>
+        </center>
+        <center>
+          <h1 id="#Contact"> Form</h1>
+          <form action="goto.html" >
+          <label for = "un">user name</label><br>
+          <input type="text" name="user_name" id =  "un" placeholder="Enter Your Name" maxlength="50" required><br>
+          <label >Email</label><br>
+          <input type="Email" maxlength="100" placeholder="Email" pattern="[a-z]*@[a-z]*.[a-z]"required><br>
+          <label>Password</label><br>
+          <input type="Password" maxlength="16" placeholder="Enter Password" required pattern="[A-Za-z0-9]{8}" placeholder="ex: Asddsa95"><br>
+          <label>Mobile</label><br>
+          <input type="tel" pattern="[0-9]{3}-[0-9]{7}" placeholder = "###########" required>
+          <br>
+          <label >Age</label><br>
+          <input type="number" min="20" max="60" value="18" required><br><br>
+          <label>Day</label> 
+          <input type="number" min="1" max="30" value="1"required>
+          <label >month-Year</label> <input type="month"><br>
+          <lable>Gender</lable><br>
+          <input type="radio" name="gender" id="man" required>
+          <label for = "man">Male</label><br>
+          <input type="radio" name="gender" id = "female" value="female">
+          <label for="female">Female</label><br>
+          <input type="button" value="Sign Up">
+          
+        </form>
+        </body>
+    </html>
+    
